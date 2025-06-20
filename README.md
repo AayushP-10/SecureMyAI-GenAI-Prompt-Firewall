@@ -348,10 +348,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues:** [GitHub Issues](https://github.com/yourusername/SecureMyAI/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/yourusername/SecureMyAI/discussions)
-- **Email:** your-email@example.com
+- **Issues:** [GitHub Issues](https://github.com/AayushP-10/SecureMyAI-GenAI-Prompt_Firewall/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/AayushP-10/SecureMyAI-GenAI-Prompt_Firewall/discussions)
+- **Email:** [Aayush Patil](ayushappatil@gmail.com)
 
 ---
-
-**Built with ❤️ for secure AI interactions** 
