@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: securemyai
+    env: python
+    plan: free
+    buildCommand: |
+      cd backend
+      pip install -r requirements.txt
+    startCommand: |
+      cd backend
+      streamlit run main_app.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GOOGLE_API_KEY
+        sync: false
+    healthCheckPath: /
+    autoDeploy: true 
