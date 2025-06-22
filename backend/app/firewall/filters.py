@@ -86,9 +86,12 @@ class PromptFilter:
         
         # Determine overall risk level
         risk_level = 'low'
-        if pii_detected or keywords_found['high']:
+        
+        # High risk for specific PII types
+        if any(pii in pii_detected for pii in ['ssn', 'credit_card']):
             risk_level = 'high'
-        elif keywords_found['medium']:
+        # Medium risk for other PII or any high-risk keywords (which can be redacted)
+        elif pii_detected or keywords_found['high'] or keywords_found['medium']:
             risk_level = 'medium'
         
         return {
