@@ -335,9 +335,6 @@ Edit `backend/app/firewall/redactor.py` to:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -348,10 +345,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues:** [GitHub Issues](https://github.com/yourusername/SecureMyAI/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/yourusername/SecureMyAI/discussions)
-- **Email:** your-email@example.com
+- **Email:** ayushappatil@gmail.com
 
 ---
-
-**Built with ❤️ for secure AI interactions** 
