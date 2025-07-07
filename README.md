@@ -1,6 +1,7 @@
 # 🛡️ SecureMyAI - GenAI Prompt Firewall
 
 A comprehensive **Streamlit + Python-based GenAI prompt firewall** that protects sensitive information before it reaches Large Language Models (LLMs). Built with security-first principles and designed for production use.
+Live Demo: https://securemyai.onrender.com/
 
 ## 🎯 Features
 
